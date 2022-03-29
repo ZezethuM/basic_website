@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@700&family=Shadows+Into+Light&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+.aboutMe {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body{
+  font-family: 'Merienda', cursive;
+  background-color: whitesmoke;
+  font-weight: 300px;
+}  
+.box{
+  float: left;
+  padding: 0 10px 10px 0;
+  clear: both;
+}
+.container{
+    width: 100%;
+    margin-top: 60px;
+    padding: 20px;
+}
+.content1{
+  clear: both;
+  padding-left: 300px;
+  width: 1000px;
+} 
+.content1 p {
+  padding-left: 20px;
+}
+.district {
+  padding: 20px 20px 0 0;
+}
+#foto{
+  width: 200px;
+  height: 200px;
+}
+.footer{
+  text-align: center;
+  background-color: pink;
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;  
+  padding-top: 20px;
+}
+.header{
+  vertical-align: middle;
+  padding: 20px 80px 0px 80px;
+}
+.historical{
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+.h-box{
+  padding: 30px;
+}
+.image-box{
+  padding-bottom: 20px;
+}
+#langu{
+  text-align: center;
+}
+.main1-content{
+  padding-top : 30px;
+  padding-bottom: 25px;
+  line-height: 20px;
+  clear: both;
+  }
+.main1-content h1{
+  padding-bottom: 20px;
+}
+nav{
+  border-collapse: collapse;
+  background-color: pink;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.09);
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.nav-link:hover{
+  background-color: white;
+}
+.nav-link {
+  color: brown;
+  text-decoration: none;
+  margin: 0 15px;
+}
+#paris{
+  width: 270px;
+  height: 250px;
+}
+#pic{
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  padding: 10px;
+}
+table, th, td {
+  border: 1px solid #000000;
+  table-layout: fixed;
+  padding: 10px;
+}
+table{
+    padding-top: 30px;
+    border-collapse: collapse;
+    width: 90%;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.tables{
+  padding-top: 20px;
+}
+
+@media only screen and (max-width: 700px){
+
+.aboutMe {
+  flex-direction: column;
+}
+  body{
+  width: 100%; 
+} 
+.content1{
+  display: flex;
+  padding-left: 40px;
+  padding-right: 0;
+  width: 0;
+}
+.content1 p{
+  padding-left: 0;
+}
+.footer{
+  position: fixed;
+}
+.historical{
+  flex-direction: column;
+}
+.h-box h1{
+  font-size: medium;
+}
+#langu{
+  text-align: center;
+  font-size: medium;
+}
+.main2-content{
+  margin-top: 10px;
+}
+
+.main2-content h2 {
+    text-align: center;
+    font-size: medium;
+}
+nav a{
+  flex-direction: row;
+}
+nav{
+  position: fixed;
+}
+.right{
+  float: right;
+  padding-left: 20px;
+}
+}
