@@ -123,7 +123,6 @@ table{
 .tables{
   padding-top: 20px;
 }
-
 @media only screen and (max-width: 700px){
 
 .aboutMe {
@@ -150,6 +149,9 @@ table{
 .h-box h1{
   font-size: medium;
 }
+.first{
+    width: 100%;
+}
 #langu{
   text-align: center;
   font-size: medium;
@@ -172,4 +174,42 @@ nav{
   float: right;
   padding-left: 20px;
 }
+}
+
+/* Main page */
+
+.container1{
+    align-content: center;
+    width: 100%;
+}
+.first{
+    background-image: url("images/pinkdoor.jpg");
+}
+.inner{
+    width: 40%;
+    margin-left: 30%;
+    text-align: center;
+    justify-content: space-around;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    position: relative;
+    color: black
+}
+.inner a{
+    /* text-decoration: line-through; */
+    margin: 15px;
+    text-align: center;
+    border: 0 solid black;
+    color: black;
+    color: brown;
+    border-radius: 5%;
+    height: 30px;
+    
+    
+    
 }
