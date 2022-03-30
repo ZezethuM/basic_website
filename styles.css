@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@700&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Indie+Flower&family=Rock+3D&family=Shadows+Into+Light&display=swap');
 
 *{
   box-sizing: border-box;
@@ -10,9 +10,10 @@
   justify-content: center;
 }
 body{
-  font-family: 'Merienda', cursive;
+  font-family: 'Indie Flower', cursive;
   background-color: whitesmoke;
-  font-weight: 300px;
+  font-size: medium;
+  
 }  
 .box{
   float: left;
@@ -26,8 +27,6 @@ body{
 }
 .content1{
   clear: both;
-  padding-left: 300px;
-  width: 1000px;
 } 
 .content1 p {
   padding-left: 20px;
@@ -75,6 +74,9 @@ body{
   }
 .main1-content h1{
   padding-bottom: 20px;
+}
+.main2-content h2{
+  text-align: center;
 }
 nav{
   border-collapse: collapse;
@@ -149,14 +151,14 @@ table{
   flex-direction: column;
 }
 .h-box h1{
-  font-size: medium;
+  font-size: 30px;
 }
 .first{
     width: 100%;
 }
 #langu{
   text-align: center;
-  font-size: medium;
+  font-size: 20px;
 }
 .main2-content{
   margin-top: 10px;
@@ -164,7 +166,7 @@ table{
 
 .main2-content h2 {
     text-align: center;
-    font-size: medium;
+    font-size: 20px;
 }
 nav a{
   flex-direction: row;
