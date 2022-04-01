@@ -6,39 +6,37 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="simple-grid.css">
-        
+        <link rel="stylesheet" href="Stylesgrid.css">
     </head>
 
     <body>
+        <div class = "header">
+            <nav class="center" id= "nav-bar">
+                <a href= "#home" class="nav-link">AboutMe</a>
+                <a href= "#city" class="nav-link">City</a>
+                <a href= "#lang" class="nav-link">Language</a>
+                <a href= "#history" class ="nav-link">History</a>
+            </nav>
+        </div>
         <div class="container">
-            <div class = "header">
-                <nav id= "nav-bar">
-                    <a href= "#home" class="nav-link">AboutMe</a>
-                    <a href= "#city" class="nav-link">City</a>
-                    <a href= "#lang" class="nav-link">Language</a>
-                    <a href= "#history" class ="nav-link">History</a>
-                </nav>
-            </div>
-            <div class="aboutMe" id="home">
-                    <div class="h-box">
-                        <h1>ZEZETHU MANYAMALALA</h1>
+             <div class="aboutMe row" id="home">
+                    <div class="col-12">
+                        <h2 class="col-6 center">ZEZETHU MANYAMALALA</h2>
+                        <img class="col-6 left" src="images/tablem.jpg" alt="A Picture of me" id="pic" />
                     </div>
-                    <div class="image-box">
-                        <img src="images/tablem.jpg" alt="A Picture of me" id="pic" />
-                    </div>
-            </div>
+            </div> 
             
-             <h1 id="langu">PARIS-FRANCE</h1>
-           <div class="content1">
-                <div class="district middle" id="city">
-                    <img class="box" src="images/paris.jpg" alt="Paris" id="paris">
-                    <p>
+            <div class="row">
+               <h2 class="center" id="langu">PARIS-FRANCE</h2> 
+                <div class="row" id="city">
+                    <img class="col-7-sm" src="images/paris.jpg" alt="Paris"/>
+                    <p class="left">
                         Paris is one of the most beautiful cities in the world. It is known worldwide for the Louvre Museum, Notre-Dame cathedral, and the Eiffel tower. It has a reputation of being a romantic and cultural city. The city is also known for its high-quality gastronomy and the terraces of its cafés.
                         For that reason I would love to visit Paris because I love food and Paris is known as a food paradise, thats what mostly interest me about it. Another thing is that my favourite player in the world now plays for Paris Saint German a team from Paris in France. 
                     </p>
                 </div>
         </div>
-            <div class="main1-content" id="lang">
+            <!-- <div class="main1-content" id="lang">
                         <h1 id="langu">FOREIGN LANGUAGE</h1>
 
                         <div class="sub-main">
@@ -116,7 +114,7 @@
             </div>
         <div class="footer">
             created by @ZezethuM
-        </div>
+        </div> -->
     </body>
 </html>
 
