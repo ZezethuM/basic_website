@@ -4,18 +4,25 @@ body{
   background-color: whitesmoke;
 }
 .container{
-  margin-top: 4em;
+   margin-top: 4em;
 }
 nav{
   padding: 10px 0 10px 0;
-  background-color: pink;
-  border-collapse: collapse;
-  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.09);
+   
+}
+.header{
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
-
+  z-index: 99;
+  background-color: pink;
+  border-collapse: collapse;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.09); 
+}
+.history-image{
+  width: 140px;
+  height: 180px;
 }
 
 .nav-link:hover{
@@ -27,8 +34,8 @@ nav{
 }
 #pic{
   border-radius: 50%;
-  width: 360px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
 }
 #paris{
   width: 250px;
@@ -70,4 +77,13 @@ table{
   .simple{
     margin-top: 1em;
   }
+  .history-image{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+  }
+  #pic{
+    padding: 0 50px 0 50px;
+  }
+
 }
