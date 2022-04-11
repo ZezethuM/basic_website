@@ -187,9 +187,6 @@ nav{
   float: right;
   padding-left: 20px;
 }
-.first img{
-  background-position: center;
-}
 }
 
 /* Main page */
@@ -200,10 +197,6 @@ nav{
 }
 .first{
     background-image: url("images/pinkdoor.jpg");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    height: 50vh;
-    background-position: center center;
 }
 .inner{
     width: 40%;
